@@ -1,0 +1,20 @@
+#txt {
+  background-color: turquoise;
+  font-family: 'Bellefair', serif;
+  height: 400px;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  padding-top: 220px;
+}
+.interface {
+  background-color: turquoise;
+  font-family: 'Bellefair', serif;
+  height: 400px;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 20px;
+}
+#btn {
+  font-size: 20px
+}

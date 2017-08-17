@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/jimbotruck.jpg">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+  <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
+</head>
+<!-- onload starts the js function "startTime()" as soon as the page is loaded -->
+<body onload="startTime()">
+  <div id="txt"></div>
+
+  <div class="flex-container text-center">
+    <div>
+      <div id="time"></div>
+      <div class="interface">
+        <select name="hours" id="hoursDropdown"></select>
+        <select name="minutes" id="minutesDropdown"></select>
+        <select name="ampm" id="ampm">
+  					<option value="AM">AM</option>
+  					<option value="PM">PM</option>
+  				</select>
+        <button id="btn" class="btn btn-success">Set Alarm</button>
+        <h2 id="message"></h2>
+        <audio id="ding">
+  					<source src="sounds/ding.wav" type="audio/wav">
+  				</audio>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/alarm.js"></script>
+</body>
+
+</html>
